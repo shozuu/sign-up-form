@@ -14,7 +14,6 @@ body {
 }
 
 .navbar .container {
-    border: 2px solid black;
     max-width: 1100px;
     margin: 0 auto;
     padding: 15px 0px;
@@ -23,7 +22,6 @@ body {
 }
 
 .navbar .name {
-    border: 2px solid black;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -36,7 +34,6 @@ body {
 }
 
 ul {
-    border: 2px solid black;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -45,5 +42,58 @@ ul {
 
 .navbar a {
     text-decoration: none;
+    color: #EEE9DB;
+}
+
+.section .container {
+    border: 2px solid red;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container .content {
+    border: 2px solid blue;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content .title, .title1 {
+    font-size: 78px;
+    font-weight: 700;
     color: #F9B217;
+}
+
+.content .title1 {
+    color: #EEE9DB;
+}
+
+.content .text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #EEE9DB;
+}
+
+.content .button {
+    background-color: #F9B217;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.container img {
+    border: 2px solid black;
 }
