@@ -49,6 +49,10 @@ ul {
     color: #EEE9DB;
 }
 
+.navbar a:hover {
+    color: #F9B217;
+}
+
 .section{
     height: 90%;
     display: flex;
