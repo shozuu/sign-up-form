@@ -15,7 +15,7 @@ html, body {
 
 .signup .container {
     background-color: #282828;
-    padding: 30px;
+    padding: 30px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,4 +100,22 @@ form {
 .continue-with .line {
     border-bottom: 1px solid #EEE9DB;
     width: 113px;
+}
+
+.signup-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup-links .google,
+.signup-links .github,
+.signup-links .facebook {
+    background-color: #EEE9DB;
+    padding: 10px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
