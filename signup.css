@@ -107,6 +107,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .signup-links .google,
@@ -118,4 +119,13 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login-container {
+    color: #EEE9DB;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #F9B217;
 }
