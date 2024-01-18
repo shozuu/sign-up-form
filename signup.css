@@ -34,7 +34,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding: 10px;
     color: #EEE9DB;
 }
@@ -46,7 +46,7 @@ form {
 .input-group input {
     font-family: 'Poppins', sans-serif;
     color: #EEE9DB;
-    width: 360px;
+    width: 350px;
     font-size: 16px;
     padding: 10px;
     background-color: #282828;
@@ -73,4 +73,15 @@ form {
     color: #EEE9DB;
     padding: 2px 3px;
     top: 0;
+}
+
+.submit button {
+    background-color: #F9B217;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
