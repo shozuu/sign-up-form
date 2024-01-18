@@ -2,6 +2,13 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-image: url(pics/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .navbar{
     height: 10%;
 }
@@ -115,10 +122,17 @@ form {
 .signup-links .facebook {
     background-color: #EEE9DB;
     padding: 10px 30px;
+    border: 2px solid #282828;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.signup-links .google:hover,
+.signup-links .github:hover,
+.signup-links .facebook:hover {
+    border: 2px solid #F9B217;
 }
 
 .login-container {
