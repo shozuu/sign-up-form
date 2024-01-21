@@ -102,6 +102,11 @@ ul {
     border-radius: 10px;
 }
 
+.content .button:hover {
+    background-color: #cf8e00;
+    cursor: pointer;
+}
+
 .content a {
     text-decoration: none;
     font-size: 20px;
